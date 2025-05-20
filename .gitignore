@@ -1,0 +1,51 @@
+# Sensitive files
+notes_api/.env
+notes_api/venv/
+notes.db
+.env
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python bytecode and cache
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+
+# Pip and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.pip/
+wheels/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Log and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
+.pytest_cache/
+
+# Miscellaneous
+*.sqlite3
+*.db
